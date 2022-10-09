@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+.name {
+  font-size: 21px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.status {
+  margin-left: 5px;
+  margin-right: 5px;
+}
