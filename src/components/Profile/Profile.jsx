@@ -5,14 +5,7 @@ import video from '../Profile/a.mp4';
 export const Profile = ({ username, tag, location, avatar, stats }) => (
   <div className={css.profile}>
     <div className="description">
-      <video
-        width="320px"
-        height="500"
-        autoPlay={'autoplay'}
-        muted
-        loop
-        controls
-      >
+      <video width="320px" height="500" autoPlay={'autoplay'} loop controls>
         <source src={video} type="video/mp4" />
       </video>
       {/* <img
