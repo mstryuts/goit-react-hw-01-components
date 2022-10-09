@@ -35,7 +35,6 @@
   padding: 0px;
   text-align: center;
   height: 40px;
-  background-color: lightcyan;
 }
 
 .typeCell {
@@ -44,5 +43,4 @@
   border: 1px solid lightgrey;
   text-transform: capitalize;
   height: 40px;
-  background-color: lightcyan;
 }
