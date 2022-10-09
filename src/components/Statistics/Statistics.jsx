@@ -14,8 +14,8 @@ export const Statistics = ({ title, stats }) => (
           key={item.id}
           className={css.statitem}
         >
-          <span className="label">{item.label}</span>
-          <span className="percentage">{item.percentage}</span>
+          <span className={css.label}>{item.label}</span>
+          <span className={css.percentage}>{item.percentage}</span>
         </li>
       ))}
     </ul>

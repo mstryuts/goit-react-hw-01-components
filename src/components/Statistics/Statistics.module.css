@@ -22,3 +22,12 @@
   gap: 4px;
   padding: 16px;
 }
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+}
+.percentage {
+  font-size: 18px;
+  font-weight: 600;
+}
